@@ -5,7 +5,7 @@ const { GoalNear } = goals;
 function createBot() {
   const bot = mineflayer.createBot({
     host: process.env.MC_HOST,
-    username: 'PSY_Bot',
+    username: process.env,MC_USERNAME,
   });
 
   bot.loadPlugin(pathfinder);
