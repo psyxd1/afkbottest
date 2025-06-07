@@ -6,7 +6,6 @@ const vec3 = require('vec3');
 function createBot() {
   const bot = mineflayer.createBot({
     host: process.env.MC_HOST,
-    port: Number(process.env.MC_PORT) || 25565,
     username: 'PSY_Bot',
   });
 
